@@ -236,6 +236,18 @@ h3 {
   color: var(--muted);
 }
 
+.video-embed-frame {
+  padding: 0.75rem;
+  min-height: auto;
+}
+
+.video-embed-frame video {
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  background: #05060b;
+}
+
 .stats-band {
   padding: 4.5rem 0;
   background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
